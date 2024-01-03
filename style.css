@@ -1,0 +1,45 @@
+
+.container{
+    display: grid;
+    width: 400px;
+    margin: auto;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(131, 129, 129);
+    gap: 10px;
+    border: 1px solid rgb(3, 19, 88);
+    padding: 10px;
+    /* margin: 10px; */
+}
+.container>div{
+    background-color: rgb(3, 19, 88);
+    color: aliceblue;
+    padding: 10px;
+    border: 1px solid rgb(3, 19, 88);
+    border-radius: 5px;
+    box-shadow:2px 2px rgb(73, 71, 71) ;
+    text-align: center;
+   
+}
+#space{
+   grid-column-start: 1; 
+   grid-column-end: 4;
+   padding: 10px;
+   background-color: white;
+    border: 1px solid rgb(3, 19, 88);
+}
+#cross{
+    background-color: rgb(252, 251, 251);
+    color: aliceblue;
+    padding: 10px;
+    border: 1px solid rgb(3, 19, 88)
+    border-radius: 0px;
+    box-shadow:2px 2px rgb(73, 71, 71) ;
+    text-align: center;
+}
+#equal{
+    background-color: brown;
+}
+div :hover{
+    background-color: rgb(51, 48, 48);
+}
+
